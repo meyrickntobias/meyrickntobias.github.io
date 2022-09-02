@@ -2,10 +2,80 @@
 <html>
 	<head>
 		<title>Toby Meyrick</title>
+		<link href="bootstrap-5.2.0.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="jquery-3.6.1.js"></script>
+        <script src="bootstrap-4.5.3.min.js"></script>   
 	</head>
 
 	<body>
-		<h1>Hello, world!</h1>
+		<div class="header">
+			<h1 class="text-center">meyrickntobias</h1>
+			<ul class="top-nav">
+				<li><a href="#">projects</a></li>
+				<li class="f-right"><a href="#">about me</a></li>
+			</ul>
+			<div class="header-img">
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="white-bg">
+				<h2 class="text-center">Projects</h2>
+				<p class="text-center mb-5">Here are some things I have built...</p>
+				
+				<div class="project-card row">
+					<div class="col-5">
+						<div class="project-img" style="background: url('hall-review.png'); background-size: cover; background-position: center;"></div>
+					</div>
+					<div class="col-7">
+						<h3 class='project-title'>Otago Hall Review</h3>
+						<p class="project-description">
+							I found it really difficult figuring out which halls to apply for.
+							Ironically I was offered a hall not on my list of choices,
+							yet for most people, the choice really does matter. Giving 
+							current students a platform to review their hall experience
+							as well as future students a chance to preview their hall
+							experience was the idea behind this project. I learnt how to make
+							a functional login/register system and reinforced my existing 
+							skills.
+						</p>
+					</div>
+					<div class="col-12">
+						<ul class="f-right project-tags">
+							<li class="c-orange">php</li>
+							<li class="c-blue">silverstripe</li>
+							<li class="c-blue">docker</li>
+						</ul>
+					</div>
+
+				</div>
+
+
+				<div class="project-card row">
+					<div class="col-5">
+						<div class="project-img" style="background: url('coffee-shop.png'); background-size: cover; background-position: center;"></div>
+					</div>
+					<div class="col-7">
+						<h3 class='project-title'>Owheo Coffee Shop</h3>
+						<p class="project-description">
+							Setup across three VMs (as specified in assignment), myself and
+							another classmate setup a coffee ordering system with a website
+							for the employee and the customers, allowing coffees to
+							be ordered and marked as complete. 
+						</p>
+					</div>
+					<div class="col-12">
+						<ul class="f-right project-tags">
+							<li class="c-orange">php</li>
+							<li class="c-red">mysql</li>
+							<li class="c-brown">vagrant</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
 
 	</body>
 </html>
